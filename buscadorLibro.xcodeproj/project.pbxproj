@@ -12,6 +12,8 @@
 		57F01C1A1E9880A000985B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F01C181E9880A000985B1F /* Main.storyboard */; };
 		57F01C1C1E9880A000985B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F01C1B1E9880A000985B1F /* Assets.xcassets */; };
 		57F01C1F1E9880A000985B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F01C1D1E9880A000985B1F /* LaunchScreen.storyboard */; };
+		57F01C291E9883D000985B1F /* BuscadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F01C281E9883D000985B1F /* BuscadorViewController.swift */; };
+		57F01C2B1E99EB1A00985B1F /* clienteRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F01C2A1E99EB1A00985B1F /* clienteRest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		57F01C1B1E9880A000985B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57F01C1E1E9880A000985B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57F01C201E9880A000985B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F01C281E9883D000985B1F /* BuscadorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuscadorViewController.swift; sourceTree = "<group>"; };
+		57F01C2A1E99EB1A00985B1F /* clienteRest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = clienteRest.swift; sourceTree = "<group>"; };
+		57F01C2C1E99F8A200985B1F /* MetodosTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MetodosTest.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,9 @@
 				57F01C1B1E9880A000985B1F /* Assets.xcassets */,
 				57F01C1D1E9880A000985B1F /* LaunchScreen.storyboard */,
 				57F01C201E9880A000985B1F /* Info.plist */,
+				57F01C281E9883D000985B1F /* BuscadorViewController.swift */,
+				57F01C2A1E99EB1A00985B1F /* clienteRest.swift */,
+				57F01C2C1E99F8A200985B1F /* MetodosTest.playground */,
 			);
 			path = buscadorLibro;
 			sourceTree = "<group>";
@@ -138,6 +146,8 @@
 			files = (
 				57F01C171E9880A000985B1F /* ViewController.swift in Sources */,
 				57F01C151E9880A000985B1F /* AppDelegate.swift in Sources */,
+				57F01C2B1E99EB1A00985B1F /* clienteRest.swift in Sources */,
+				57F01C291E9883D000985B1F /* BuscadorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
