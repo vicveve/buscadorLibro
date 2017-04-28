@@ -10,17 +10,20 @@ import UIKit
 
 class BuscadorViewController: UIViewController {
 
-    
+     
     @IBOutlet weak var txtISBN: UITextField!
     @IBOutlet weak var txtResult: UITextView!
     @IBOutlet weak var btnBuscar: UIButton!
     
+    @IBOutlet weak var btnLimpiar: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        btnBuscar.isHidden=true
+        btnLimpiar.isHidden=true
     }
 
     override func didReceiveMemoryWarning() {

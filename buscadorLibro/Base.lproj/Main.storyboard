@@ -69,12 +69,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="978-84-376-0494-7" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kjY-F9-KNw">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="978-84-376-0494-7" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="kjY-F9-KNw">
                                 <rect key="frame" x="91" y="92" width="193" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
                                 <connections>
                                     <action selector="buscarTeclado:" destination="1j6-2E-6Ra" eventType="primaryActionTriggered" id="LXU-r3-cWe"/>
                                     <action selector="cambioTexto:" destination="1j6-2E-6Ra" eventType="editingChanged" id="McD-ri-2em"/>
@@ -87,7 +87,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvT-aU-c3N">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvT-aU-c3N">
                                 <rect key="frame" x="236" y="165" width="48" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Buscar"/>
@@ -95,7 +95,7 @@
                                     <action selector="buscar:" destination="1j6-2E-6Ra" eventType="touchUpInside" id="72r-mA-Lue"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8j-o5-unS">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8j-o5-unS">
                                 <rect key="frame" x="91" y="165" width="51" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Limpiar"/>
@@ -108,6 +108,7 @@
                     </view>
                     <connections>
                         <outlet property="btnBuscar" destination="HvT-aU-c3N" id="CY0-NK-cel"/>
+                        <outlet property="btnLimpiar" destination="X8j-o5-unS" id="NbK-FS-t2w"/>
                         <outlet property="txtISBN" destination="kjY-F9-KNw" id="99v-5D-zrz"/>
                         <outlet property="txtResult" destination="Lh0-FR-kph" id="l6R-JR-uX8"/>
                     </connections>
